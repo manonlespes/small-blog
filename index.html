@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <navbar aria-labelledby="primary-naviguation">
+                <h1><a class="navbar-brand" href="#">BlogSpace</a></h1>
+            </navbar>
+        </header>
+        <main>
+        
+            <div class="form">
+                <form action="" method="get">
+                    <div class="container-input">
+                        <label class="label" for="title">Enter your title: </label>
+                        <input class="input input-title" type="text" name="title" id="title" placeholder="Give a title to your post" />
+                    </div>
+                    <div  class="container-input">
+                        <label class="label" for="body">Enter a body:</label>
+                        <textarea class="input textarea" id="body" name="body" rows="4" cols="50" placeholder="Write something"></textarea>
+                    </div>
+                    <div class="container-submit">
+                        <input id="submit" class="submit-btn" type="submit" value="Post" />
+                    </div>
+                </form>
+            </div>
+            
+            <div id="blog-list"></div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
