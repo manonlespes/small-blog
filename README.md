@@ -2,7 +2,7 @@
 
 ** Playing with REST APIs **
 
-Part of the programm I am following on Scrimba, I had fun on playing a bit with API 🎉
+Part of the programm I am following on Scrimba, I had fun with API 🎉
 
 This small project covers the following topics:
 - URLs & endpoints
